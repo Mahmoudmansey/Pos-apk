@@ -780,6 +780,6 @@ try{ui.lang=localStorage.getItem('sc-lang')||'ar'}catch(e){ui.lang='ar'}
 try{ui.vw=localStorage.getItem('sc-vw')||'list'}catch(e){ui.vw='list'}
 render();
 if('serviceWorker' in navigator)window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})});
-</script>
+</script> <script src="theme-lang.js"></script>
 </body>
 </html>
